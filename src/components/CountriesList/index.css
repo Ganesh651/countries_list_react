@@ -1,0 +1,37 @@
+.card-bg{
+      background-color: #ebf2fc;
+      border-radius: 24px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      padding: 15px;
+      height: 140px;
+      width: 330px;
+      display: flex;
+      align-items: center;
+}
+@media  screen and (max-width:576px) {
+      .card-bg{
+            width: 100%;
+      }
+}
+.country-flag {
+      width: 70px;
+      height: 70px;
+}
+
+.country-name {
+      color: #183b56;
+      font-family: "Roboto";
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 8px;
+}
+
+.country-population {
+      font-family: "Roboto";
+      font-size: 14px;
+      font-weight: 300;
+}
+.population-container{
+      margin-left: 30px;
+}
